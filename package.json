@@ -1,0 +1,42 @@
+{
+  "name": "reactroutes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "dev": "parcel --open --port 1235 src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogendraatluri990/react-routes.git"
+  },
+  "author": "Yogendra.Atluri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogendraatluri990/react-routes/issues"
+  },
+  "homepage": "https://github.com/yogendraatluri990/react-routes#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-react": "^7.12.13",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "parcel": "^1.12.3",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^6.3.0"
+  },
+  "browserslist": [
+    "last 2 Chrome Versions"
+  ]
+}
